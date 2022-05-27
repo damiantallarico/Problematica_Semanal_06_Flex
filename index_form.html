@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="media-queries.css">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="h1-form">
+                Formulario de Inscripción al boletín semanal
+            </h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" class="menu_h">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>                
+                </li>
+                <li class="hidden"><a href="#">Smartphones</a></li>
+                <li class="hidden"><a href="#">Tablets</a></li>  
+                <li><a href="file:///Users/damian/Library/CloudStorage/OneDrive-Personal/UAI/LPPA/Problematica_Semanal_06_Flex/index.html">Home</a></li>
+            </ul>
+        </nav>
+        <form>
+            <fieldset>
+                <legend>Datos Personales:</legend>
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input class="fill_in" type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+                </div>
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <input class="fill_in" type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required>
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input class="fill_in" type="email" name="email" id="email" placeholder="Ingrese su E-mail" required>
+                </div>
+                <div>
+                    <label for="pass">Contraseña:</label>
+                    <input class="fill_in" type="pass" name="pass" id="pass" placeholder="Ingrese su contraseña" required>
+                </div>
+                <div>
+                    <input class="button" type="submit" value="Submit">
+                    <input class="button" type="reset">
+                </div>
+            </fieldset>
+        </form>
+    </body>
+    </html>
